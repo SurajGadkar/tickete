@@ -1,0 +1,12 @@
+.main_container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin: 8px 0;
+}
+.main_container > h4 {
+  flex: 3;
+}

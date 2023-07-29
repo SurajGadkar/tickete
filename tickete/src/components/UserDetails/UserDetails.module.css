@@ -1,0 +1,20 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+}
+.textFields__container {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 380px;
+}
+
+.text__fields {
+  width: 100%;
+}
+
+.heading__container {
+  margin: 8px 0;
+}

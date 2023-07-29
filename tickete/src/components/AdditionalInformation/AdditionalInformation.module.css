@@ -1,0 +1,23 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.heading__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.textFields__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 65%;
+  width: 100%;
+}
+
+.text__fields {
+  width: 100%;
+}

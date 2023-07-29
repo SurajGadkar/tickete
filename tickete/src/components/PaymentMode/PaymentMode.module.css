@@ -1,0 +1,61 @@
+.main__container {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__select__container {
+  display: flex;
+}
+
+.card__select__container > h4 {
+  flex: 3;
+}
+
+.textField__container {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textfield {
+  width: 100%;
+}
+
+.total__container {
+}
+
+.travel__tips {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.confirmation__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-radius: 0.8rem;
+  
+}
+
+.cancellation__warning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 4px;
+  width: 100%;
+  height: 50px;
+  border-radius: 0.8rem;
+  background-color: #d3d3d3;
+}

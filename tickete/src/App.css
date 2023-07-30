@@ -1,0 +1,5 @@
+@media all and (min-width: 1024px) {
+  .container__design {
+    margin: 0 70px;
+  }
+}

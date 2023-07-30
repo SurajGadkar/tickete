@@ -10,10 +10,12 @@ const { Header, Footer } = componentExport;
 function App() {
   return (
     <div className="App">
-      {/* Header */}
-      <Header />
-      {/* Pages */}
-      <PaymentPage />
+      <div className="container__design">
+        {/* Header */}
+        <Header />
+        {/* Pages */}
+        <PaymentPage />
+      </div>
       {/* Footer*/}
       <Footer />
     </div>

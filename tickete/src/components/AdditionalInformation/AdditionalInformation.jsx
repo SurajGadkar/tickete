@@ -6,7 +6,7 @@ function AdditionalInformation() {
   return (
     <div className={styles.main__container}>
       <div className={styles.heading__container}>
-        <h3>Additional Details</h3>
+        <h3>Additional Information</h3>
         <p>We need a few more details to complete your reservation.</p>
       </div>
       <div className={styles.textFields__container}>

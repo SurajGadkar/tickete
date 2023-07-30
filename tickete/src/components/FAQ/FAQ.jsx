@@ -12,7 +12,7 @@ function FAQ() {
   return (
     <div className={styles.main__container}>
       <div className={styles.heading__container}>
-        <h1>Frequently Asked Questions</h1>
+        <h3>Frequently asked questions</h3>
       </div>
       {faq.map((item) => {
         return (

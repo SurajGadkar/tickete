@@ -19,7 +19,7 @@ function TicketsOverview() {
             <p>fee(x)</p>
             <p>price</p>
           </div>
-          <div className={styles.checkout}>
+          <div className={styles.checkout2}>
             <p>discount applied</p>
             <p>price</p>
           </div>

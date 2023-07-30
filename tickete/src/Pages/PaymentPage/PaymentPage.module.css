@@ -3,7 +3,9 @@
     font-size: 16px;
   }
 }
-
+p {
+  font-size: 12px;
+}
 @media all and (min-width: 1024px) {
   .mobileView {
     display: none;

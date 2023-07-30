@@ -1,6 +1,14 @@
 :root {
   /* Global variables to be defined here */
   /* --color-white: #ffffff; */
+
+  --color-white: #ffffff;
+  --color-black: #0a0a0a;
+  --color-discount: #006642;
+  --color-pumpkin-bg: #fff7ed;
+  --color-pumpkin: #7f2d0f;
+  --color-secure: #1733b6;
+  --color-klarna: #feb4c7;
 }
 
 *,
@@ -14,6 +22,7 @@
 html,
 body {
   height: 100%;
+  font-family: "Roboto", sans-serif;
 }
 body {
   line-height: 1.5;

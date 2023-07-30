@@ -4,7 +4,8 @@
   min-height: auto;
 }
 
-.heading__container {
+.heading__container > h3 {
+  font-weight: 400px;
 }
 
 @media all and (min-width: 768px) {

@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./EventInformation.module.css";
-
+import ConfirmationNumberIcon from "@mui/icons-material/ConfirmationNumber";
+import EventIcon from "@mui/icons-material/Event";
+import WatchLaterIcon from "@mui/icons-material/WatchLater";
 function EventInformation() {
   return (
     <div className={styles.main__container}>
@@ -12,15 +14,15 @@ function EventInformation() {
       </div>
       <div className={styles.info__container}>
         <div className={styles.details}>
-          <span>logo</span>
+          <ConfirmationNumberIcon />
           <p>{`${"<variant-name>"}`}</p>
         </div>
         <div className={styles.details}>
-          <span>logo</span>
+          <EventIcon />
           <p>{`${"<variant-name>"}`}</p>
         </div>
         <div className={styles.details}>
-          <span>logo</span>
+          <WatchLaterIcon />
           <p>{`${"<variant-name>"}`}</p>
         </div>
       </div>

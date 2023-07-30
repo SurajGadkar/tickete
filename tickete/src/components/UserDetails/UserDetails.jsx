@@ -6,7 +6,7 @@ function UserDetails() {
   return (
     <div className={styles.main__container}>
       <div className={styles.heading__container}>
-        <h1>Enter your details</h1>
+        <h3>Enter your details</h3>
         <p>
           We'll be sending your tickets to the details below. <br></br>
           Booking for a friend? Add their details.

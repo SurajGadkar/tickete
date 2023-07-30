@@ -17,7 +17,13 @@
   align-items: center;
   padding: 2px 0;
 }
-
+.checkout2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0;
+  color: #006642;
+}
 .total__container {
   display: flex;
   width: 100%;

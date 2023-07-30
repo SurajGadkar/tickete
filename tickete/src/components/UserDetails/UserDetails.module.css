@@ -18,3 +18,23 @@
 .heading__container {
   margin: 8px 0;
 }
+
+@media all and (min-width: 1024px) {
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    height: 278px;
+  }
+  .textFields__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 274px;
+    width: 90%;
+  }
+  .text__fields {
+    width: 49%;
+  }
+}

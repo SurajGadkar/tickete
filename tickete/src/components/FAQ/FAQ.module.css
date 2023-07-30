@@ -1,6 +1,18 @@
 .main__container {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   min-height: auto;
+}
+
+.heading__container {
+}
+
+@media all and (min-width: 768px) {
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: auto;
+    width: 714p;
+  }
 }

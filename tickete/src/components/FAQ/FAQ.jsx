@@ -11,6 +11,9 @@ import faq from "../../data/faq";
 function FAQ() {
   return (
     <div className={styles.main__container}>
+      <div className={styles.heading__container}>
+        <h1>Frequently Asked Questions</h1>
+      </div>
       {faq.map((item) => {
         return (
           <Accordion key={item.id} className={styles.faq}>

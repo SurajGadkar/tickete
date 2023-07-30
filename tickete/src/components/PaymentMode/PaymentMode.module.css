@@ -1,8 +1,9 @@
 .main__container {
-  height: 750px;
+  height: 768px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 15px 0;
 }
 
 .heading__container {
@@ -13,7 +14,6 @@
 .card__select__container {
   display: flex;
 }
-
 .card__select__container > h4 {
   flex: 3;
 }
@@ -45,7 +45,6 @@
   width: 100%;
   height: 60px;
   border-radius: 0.8rem;
-  
 }
 
 .cancellation__warning {
@@ -58,4 +57,38 @@
   height: 50px;
   border-radius: 0.8rem;
   background-color: #d3d3d3;
+}
+.action__container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 1024px) {
+  .textField__container {
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .textfield {
+    width: 49%;
+  }
+  .main__container {
+    height: 568px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+  .card__select__container {
+    width: 90%;
+  }
+  .action__container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

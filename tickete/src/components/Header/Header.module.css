@@ -18,3 +18,29 @@
   justify-content: center;
   align-items: center;
 }
+
+.normal__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.help {
+  min-width: 6%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media all and (min-width: 578px) {
+  .arrow__container {
+    display: none;
+  }
+}
+
+@media all and (max-width: 578px) {
+  .normal__container {
+    display: none;
+  }
+}

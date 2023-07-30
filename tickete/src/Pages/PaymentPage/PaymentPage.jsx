@@ -17,36 +17,81 @@ const {
 
 function PaymentPage() {
   return (
-    <div class={styles.main}>
-      {/* Payment Page Header */}
-      <PaymentPageHeader />
+    <div className={styles.main}>
+      <div className={styles.desktopView}>
+        <div className={styles.top__container}>
+          <div className={styles.left__container}>
+            <div className={styles.left__contents}>
+              {/* Payment Page Header */}
+              <PaymentPageHeader />
 
-      {/* Event Information */}
-      <EventInformation />
+              {/* User Details */}
+              <UserDetails />
 
-      {/* Tickets Overview  */}
-      <TicketsOverview />
+              {/* Additional Details */}
+              <AdditionalInformation />
 
-      {/* User Details */}
-      <UserDetails />
+              {/* Payment Mode */}
+              <PaymentMode />
+            </div>
+          </div>
 
-      {/* Additional Details */}
-      <AdditionalInformation />
+          <div className={styles.right__container}>
+            <div className={styles.right__contents}>
+              {/* Event Information */}
+              <EventInformation />
 
-      {/* Payment Mode */}
-      <PaymentMode />
+              {/* Tickets Overview  */}
+              <TicketsOverview />
+            </div>
+          </div>
+        </div>
+        <div className={styles.bottom__container}>
+          <div className={styles.bottomLeft__container}>
+            <div className={styles.bottomleft__contents}>
+              {/* FAQ*/}
+              <FAQ />
+            </div>
+          </div>
+          <div className={styles.bottomRight__container}>
+            <div className={styles.bottomright__contents}>
+              {/* NeedHelp*/}
+              <NeedHelp />
+            </div>
+          </div>
+        </div>
 
-      {/* Coupon code*/}
-      <Coupon />
+        {/* Tickete Promise*/}
+        <TicketePromise />
+      </div>
+      <div className={styles.mobileView}>
+        {/* Payment Page Header */}
+        <PaymentPageHeader />
 
-      {/* FAQ*/}
-      <FAQ />
+        {/* Event Information */}
+        <EventInformation />
 
-      {/* NeedHelp*/}
-      <NeedHelp />
+        {/* Tickets Overview  */}
+        <TicketsOverview />
 
-      {/* Tickete Promise*/}
-      <TicketePromise />
+        {/* User Details */}
+        <UserDetails />
+
+        {/* Additional Details */}
+        <AdditionalInformation />
+
+        {/* Payment Mode */}
+        <PaymentMode />
+
+        {/* FAQ*/}
+        <FAQ />
+
+        {/* NeedHelp*/}
+        <NeedHelp />
+
+        {/* Tickete Promise*/}
+        <TicketePromise />
+      </div>
     </div>
   );
 }

@@ -1,3 +1,68 @@
+@media all and (min-width: 1024px) {
+  .main {
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .mobileView {
+    display: none;
+  }
+}
+@media all and (max-width: 1024px) {
+  .desktopView {
+    display: none;
+  }
+}
+
 .main {
   margin: 20px;
+  overflow-x: hidden;
+}
+
+.top__container {
+  min-height: 1024px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left__container {
+  display: flex;
+  flex: 3;
+}
+
+.right__container {
+  display: flex;
+  flex: 1.6;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right__contents {
+  width: 70%;
+  margin-left: 20px;
+  margin-top: 60px;
+  min-height: auto;
+}
+
+.bottom__container {
+  display: flex;
+  width: 100%;
+  min-height: 492px;
+}
+
+.bottomLeft__container {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 714px;
+}
+
+.bottomRight__container {
+  flex: 1.4;
+  display: flex;
+  margin: 10px;
 }

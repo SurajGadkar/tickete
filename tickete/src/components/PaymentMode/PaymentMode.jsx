@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./PaymentMode.module.css";
 import TextField from "@mui/material/TextField";
+import Coupon from "../Coupon/Coupon";
 
 function PaymentMode() {
   return (
@@ -46,21 +47,24 @@ function PaymentMode() {
         <h2>Total: price</h2>
         <p>You will pay in currency</p>
       </div>
-      <div className={styles.travel__tips}>
-        <span>rounded-icon</span>
-        <p>Recieve travel tips, suggestions and offer in -city- by email.</p>
+      <div className={styles.action__container}>
+        <div className={styles.travel__tips}>
+          <span>rounded-icon</span>
+          <p>Recieve travel tips, suggestions and offer in -city- by email.</p>
+        </div>
+        <div>
+          With payment, you agree to the general terms and conditions of Tickete
+          & the activity provider.
+        </div>
+        <div className={styles.confirmation__button}>
+          Confirm and pay secure-icon
+        </div>
+        <div className={styles.cancellation__warning}>
+          <h4>Free cancellation </h4>
+          <p>Tickets can be cancelled by 13th Decemeber 2022</p>
+        </div>
       </div>
-      <div>
-        With payment, you agree to the general terms and conditions of Tickete &
-        the activity provider.
-      </div>
-      <div className={styles.confirmation__button}>
-        Confirm and pay secure-icon
-      </div>
-      <div className={styles.cancellation__warning}>
-        <h4>Free cancellation </h4>
-        <p>Tickets can be cancelled by 13th Decemeber 2022</p>
-      </div>
+      <Coupon />
     </div>
   );
 }

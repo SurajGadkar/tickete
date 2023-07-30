@@ -5,3 +5,17 @@
 .styling {
   padding: 0 10px;
 }
+.secondary__container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
+  .secondary__container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -27,7 +27,7 @@ function TicketsOverview() {
           </div>
         </div>
         <div className={styles.checkout}>
-          <h5>COUPON CODE applied</h5>
+          <h5>'TICKETE10' applied</h5>
           <h5>REMOVE</h5>
         </div>
       </div>

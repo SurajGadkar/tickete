@@ -4,7 +4,9 @@ import styles from "./TicketsOverview.module.css";
 function TicketsOverview() {
   return (
     <div className={styles.main__container}>
-      <div className={styles.title__container}>Tickets Overview</div>
+      <div className={styles.title__container}>
+        <h3>Tickets Overview</h3>
+      </div>
       <div className={styles.charges__container}>
         <div className={styles.checkout__c}>
           <div className={styles.checkout}>

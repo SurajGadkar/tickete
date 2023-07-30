@@ -5,7 +5,8 @@
 }
 
 .heading__container > h3 {
-  font-weight: 400px;
+  font-weight: 400;
+  padding: 10px 5px;
 }
 
 @media all and (min-width: 768px) {

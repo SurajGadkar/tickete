@@ -36,3 +36,13 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media all and (min-width: 1024px) {
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 60%;
+  }
+}

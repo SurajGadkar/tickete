@@ -9,7 +9,6 @@ const {
   TicketsOverview,
   AdditionalInformation,
   PaymentMode,
-  Coupon,
   FAQ,
   NeedHelp,
   TicketePromise,

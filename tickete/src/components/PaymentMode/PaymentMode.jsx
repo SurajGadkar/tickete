@@ -56,9 +56,12 @@ function PaymentMode() {
           <p>Recieve travel tips, suggestions and offer in -city- by email.</p>
         </div>
         <div>
-          With payment, you agree to the general terms and conditions of Tickete
-          & the activity provider.
+          <p>
+            With payment, you agree to the general terms and conditions of
+            Tickete & the activity provider.
+          </p>
         </div>
+
         <div className={styles.confirmation__button}>
           Confirm and pay{" "}
           <span className={styles.lock__icon}>
